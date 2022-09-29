@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url(/font/Oswald-Regular.ttf);
+}
+header {
+    background-color: #b8cb21;
+    height: 123px; 
+}
+body{
+    background-image: url(/image/fond.png);
+}
+#logo {
+    float: left;
+}
+#nav{
+    float: right;   
+    margin-top: 45px;
+    margin-right: 30px;
+}
+#nav li {
+    display: inline;
+}
+#nav li a {
+    font-family: "Oswald";
+    padding: 10px;
+    font-size: 20px;
+    color: #314723 
+}
+.container{
+    width: 700px;
+    margin: auto;
+}
+main {
+    background-color: white;
+    padding: 40px 20px 20px 20px;
+}
+h1 {
+    color: #b8cb21;
+    font-family: "Oswald";
+    font-weight: normal;
+    margin-bottom: 20px;
+
+}
+.paragraphe img {
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+}
+.paragraphe p {
+    margin-bottom: 20px;
+}
+.read {
+    float: right;
+    color: white;
+    background-color: #b8cb21;
+    padding: 10px;
+}
+#S1 {
+    height: 270px;
+}
+#S2 {
+    height: 400px;
+}
+ul li {
+    margin-left: 30px;
+}
+.academy {
+    text-align: center;    
+}
+.academy img{
+    width: 50px;
+    margin: 30px 30px;
+}
+footer p {
+    text-align: center;
+}
+footer {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
