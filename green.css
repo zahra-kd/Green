@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: "Oswald";
-    src: url(/font/Oswald-Regular.ttf);
+    src: url(font/Oswald-Regular.ttf);
 }
 header {
     background-color: #b8cb21;
